@@ -559,6 +559,16 @@ index = 0
 while index<6:
     print(index)
     index += 1
+    
+# NumberOfLines_Input = int(input("Please enter the number of lines you wish to count to:\n"))
+# for a in range(NumberOfLines_Input):
+#     print(a+1)
+
+# for b in range(1, int(input("Enter a number\n",))+1):print(b*"*")
+
+# c = int(input("What size shall your pyramid be?\n"))
+# for d in range(c):
+#     print(" " * (c-d-1) + " *" * (d+1))
 
 print(" ")
 
@@ -626,11 +636,11 @@ def WhatsApp(Status):
 Status = "status"
 a = WhatsApp(Status)
 
-# def print_stars(lines):
-#    for line in range(lines + 1):
-#       print('*' * line)
-# numLines = int(input('Enter number of lines: '))
-# print_stars(numLines)
+# def Line_Count(num):
+#     for e in range(1, num + 1):
+#         print("*" * e)
+# Lines_Number = int(input("Enter number of lines\n"))
+# Line_Count(Lines_Number)
 
 print(" ")
 
