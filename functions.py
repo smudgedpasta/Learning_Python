@@ -55,8 +55,8 @@ def WhatsApp(Status):
 Status = "status"
 a = WhatsApp(Status)
 
-def print_stars(lines):
-   for line in range(lines + 1):
-      print('*' * line)
-numLines = int(input('Enter number of lines: '))
-print_stars(numLines)
+def Line_Count(num):
+    for e in range(1, num + 1):
+        print("*" * e)
+Lines_Number = int(input("Enter number of lines\n"))
+Line_Count(Lines_Number)
