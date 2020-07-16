@@ -33,3 +33,9 @@ if num > 100:
     print("You have entered a huge, three or more digit number!")
 else:
     print("You have entered a small, 1 or two digit number!")
+    
+# Short hand if else notation (ternary operators) is writing the code in condensed, single lines.
+
+a, b = 10^35, 1.67262
+c = a-b if a>b else b-a
+print(f"The difference between a proton's pressure and a proton's weight is {c}")
