@@ -491,7 +491,7 @@ print(" ")
 
 # Short hand if else notation (ternary operators) is writing the code in condensed, single lines
 
-a, b = 10e35, 1.67262 # < 10**35 also makes 35 an index
+a, b = 10**35, 1.67262 # < 10e35 also makes 35 an exponent
 c = a-b if a>b else b-a
 print(f"The difference between a proton's pressure and a proton's weight is {c}")
 
