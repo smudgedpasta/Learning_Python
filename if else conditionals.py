@@ -39,3 +39,6 @@ else:
 a, b = 10**35, 1.67262 # < 10e35 also makes 35 an exponent
 c = a-b if a>b else b-a
 print(f"The difference between a proton's pressure and a proton's weight is {c}")
+
+print ("The pressure of a proton should never be the same as its weight" if a == b else "A proton's pressure is greater than a proton's weight"
+if a > b else "A proton's weight is greater than a proton's pressure")
