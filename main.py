@@ -29,6 +29,7 @@ print(type(d))
 print(type(e))
 print(type(f))
 
+globals().clear()
 print(" ")
 
 num1 = 45
@@ -60,6 +61,7 @@ print(c)
 d = float(x)
 print(c,d)
 
+globals().clear()
 print(" ")
 
 '''
@@ -128,6 +130,7 @@ print(p)
 q = not True
 print(q)
 
+globals().clear()
 print(" ")
 
 name = "Smudge" # < String literal
@@ -161,6 +164,7 @@ print('''*
 ****
 *****''')
 
+globals().clear()
 print(" ")
 
 print( "Just wanna see if there’s a difference in the space if", "it’s done this way...")
@@ -209,6 +213,7 @@ print(len(fresh))
 
 print(len("Test") == 4)
 
+globals().clear()
 print(" ")
 
 # str1 = "What is your name?"
@@ -244,6 +249,7 @@ print(" ")
 # name2 = input(str5)
 # print(f"I think I have concluded that your name might possibly be {name1}")
 
+# globals().clear()
 print(" ")
 
 '''
@@ -313,6 +319,7 @@ Zodiac_Constellations = ["Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo", 
 print(max(Zodiac_Constellations))
 print(min(Zodiac_Constellations))
 
+globals().clear()
 print(" ")
 
 Do_you_like = ["My car", "My tractor", "My playmobile"]
@@ -332,6 +339,7 @@ Do_you_like_2[0] = "My flying cactus"
 Do_you_like = tuple(Do_you_like_2)
 print(Do_you_like)
 
+globals().clear()
 print(" ")
 
 # Dictionaries are the collection of key-value pairs
@@ -376,6 +384,7 @@ Sonic_Characters = {
 }
 print(Sonic_Characters.fromkeys("Hedgehog"))
 
+globals().clear()
 print(" ")
 
 MySet = {1,2,3,4,5,1,2,5,4,3}
@@ -451,6 +460,7 @@ p = {1,4,9,16,25,36,49,64,81,100,121,144}
 test = o.intersection(p)
 print(test)
 
+globals().clear()
 print(" ")
 
 # age = int(input("Enter your age:\n"))
@@ -498,6 +508,7 @@ print(f"The difference between a proton's pressure and a proton's weight is {c}"
 print ("The pressure of a proton should never be the same as its weight" if a == b else "A proton's pressure is greater than a proton's weight"
 if a > b else "A proton's weight is greater than a proton's pressure")
 
+globals().clear()
 print(" ")
 
 '''
@@ -556,6 +567,7 @@ StudentMarks = {
 for key, value in StudentMarks.items():
     print(f"Name of student: {key} Grade out of 10: {value}")
 
+globals().clear()
 print(" ")
 
 x = 4
@@ -579,6 +591,7 @@ while index<6:
 # for d in range(c):
 #     print(" " * (c-d-1) + " *" * (d+1))
 
+globals().clear()
 print(" ")
 
 # name = input("Enter your name\n")
@@ -586,6 +599,7 @@ print(" ")
 # print(f"Your capitalized name is {name[0].upper() + name[1:]}")
 # print(int(input("Please enter a number\n")))
 
+# globals().clear()
 print(" ")
 
 def greeting(name):
@@ -651,6 +665,7 @@ a = WhatsApp(Status)
 # Lines_Number = int(input("Enter number of lines\n"))
 # Line_Count(Lines_Number)
 
+globals().clear()
 print(" ")
 
 '''
@@ -706,6 +721,7 @@ def testing_factorials(a):
 test_fac = testing_factorials(5)
 print(test_fac)
 
+globals().clear()
 print(" ")
 
 # from __future__ import braces
@@ -732,6 +748,7 @@ print(math.factorial(6))
 import this 
 # import antigravity
 
+globals().clear()
 print(" ")
 
 CaveStory_Characters = ["Quote", "Curly", "Toroko", "Arthur", "Sue", "Misery", "Balrog"]
@@ -755,9 +772,10 @@ More_CaveStory_Characters = {
 for key in More_CaveStory_Characters:
   print(key, "-", More_CaveStory_Characters[key])
 
-  print(" ")
+globals().clear()
+print(" ")
 
-  '''
+'''
 Let's pretend I'm pulling some data from the internet:
 
 block 1 - import statements
@@ -811,4 +829,5 @@ block 5 - return the result
     
 # # ^ This code executed because the variables are not assigned to Test
 
+# globals().clear()
 print(" ")
