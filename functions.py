@@ -55,11 +55,16 @@ def WhatsApp(Status):
 Status = "status"
 a = WhatsApp(Status)
 
-def Greetings(CTE):
-    print(f"How are you all doing today, member {CTE}?")
-    return()
-CTE = input("Enter your name\n")
-g = Greetings(CTE)
+def Greetings(name):
+    return input(f"How are you doing today, member {name}?\n")
+name = input("Enter your name\n")
+CTE = Greetings(name)
+if CTE == "Good":
+    print("That’s good to hear!")
+elif CTE == "Bad":
+    print("Aw, I’m sorry to hear that.") 
+else:
+    print("Pleasure to make your acquaintance!")
 
 def Line_Count(num):
     for e in range(1, num + 1):
