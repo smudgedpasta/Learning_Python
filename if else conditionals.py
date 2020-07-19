@@ -42,3 +42,7 @@ print(f"The difference between a proton's pressure and a proton's weight is {c}"
 
 print ("The pressure of a proton should never be the same as its weight" if a == b else "A proton's pressure is greater than a proton's weight"
 if a > b else "A proton's weight is greater than a proton's pressure")
+
+age = int(input("Enter your age:\n"))
+outcome = "You cannot start your driving lessons yet." if age <= 16 else "You boomer, what are you doing here?" if age == 50 else "Dude seriously, you shouldn't be driving at this age." if age == 100 else "You can start your driving lessons."
+print("{}".format(outcome))
