@@ -1,0 +1,11 @@
+Test text file for opening and reading files through file handling.py
+
+I'm a goofy goober, yeah! You're a goofy goober, yeah! We're all goofy goobers, yeah!
+
+Goofy
+Goofy
+Goofy
+Goofy
+
+GOOBER!!!Test appending text onto the file
+Test appending text onto the file
