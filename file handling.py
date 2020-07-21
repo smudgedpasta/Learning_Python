@@ -18,16 +18,16 @@ content = a.read()
 print(content)
 a.close()
 
-a = open("TestFile.txt", "w")
-a.write("Test writing text onto the file")
-a.close(
+# a = open("TestFile.txt", "w")
+# a.write("Test writing text onto the file")
+# a.close(
 
-a = open("TestFile.txt", "a")
-a.write("\nTest appending text onto the file")
-a.close()
-# ^ This will be concatenated as many times as you run the program
+# a = open("TestFile.txt", "a")
+# a.write("\nTest appending text onto the file")
+# a.close()
+# # ^ This will be concatenated as many times as you run the program
 
-b = open("TestFile2.txt", "x"
-c = open("TestFile2.txt", "a")
-c.write("Test 🤔")
-c.close()
+# b = open("TestFile2.txt", "x"
+# c = open("TestFile2.txt", "a")
+# c.write("Test 🤔")
+# c.close()
