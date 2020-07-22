@@ -72,10 +72,12 @@ print("You now get a cheesecake. 🧀🍰")
 import random
 
 answer = random.randint(50, 100)
+attempts = 0
 guess = int(input("I am thinking of a number between 50 and 100... Can you guess what it is?\n"))
 while answer != guess:
+    attempts += 1
     if guess > answer:
         guess = int(input("Your guess was too high! Try again!\n"))
     else:
         guess = int(input("Your guess was too low! Try again!\n"))
-print("Correct! You now get a cheesecake. 🧀🍰")
+print(f"Correct! This took you {attempts} number of attempts. You now get a cheesecake. 🧀🍰")
