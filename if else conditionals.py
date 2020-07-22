@@ -46,3 +46,11 @@ if a > b else "A proton's weight is greater than a proton's pressure")
 age = int(input("Enter your age:\n"))
 outcome = "You cannot start your driving lessons yet." if age <= 16 else "You boomer, what are you doing here?" if age == 50 else "Dude seriously, you shouldn't be driving at this age." if age == 100 else "You can start your driving lessons."
 print("{}".format(outcome))
+
+TrueNumber = int(input("I am thinking of a number less than 50 but more than 20... Guess the number!\n"))
+if TrueNumber > 27:
+    print("Your number is too big!")
+elif TrueNumber == 27:
+    print("Correct!")
+else:
+    print("Your number is too small!")
