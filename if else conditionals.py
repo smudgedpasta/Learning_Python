@@ -55,7 +55,7 @@ elif TrueNumber == 27:
 else:
     print("Your number is too small!")
 
-    import random
+import random
 
 answer = random.randint(50, 100)
 guess = int(input("I am thinking of a number between 50 and 100... Can you guess what it is?\n"))
