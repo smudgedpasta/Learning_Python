@@ -54,3 +54,14 @@ elif TrueNumber == 27:
     print("Correct!")
 else:
     print("Your number is too small!")
+
+    import random
+
+answer = random.randint(50, 100)
+guess = int(input("I am thinking of a number between 50 and 100... Can you guess what it is?\n"))
+while answer != guess:
+    if guess > answer:
+        guess = int(input("Your guess was too high! Try again!\n"))
+    else:
+        guess = int(input("Your guess was too low! Try again!\n"))
+print("Correct! You now get a cheesecake. 🧀🍰")
