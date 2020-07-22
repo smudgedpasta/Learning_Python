@@ -31,3 +31,28 @@ a.close()
 # c = open("TestFile2.txt", "a")
 # c.write("Test 🤔")
 # c.close()
+
+d = open("TestFile.txt")
+
+content = d.read(5)
+print(content)
+content = d.read(5)
+print(content)
+
+line = d.readline()
+print(line)
+
+lines = d.readlines()
+print(type(lines))
+
+d.close()
+
+e = open("TestFile.txt")
+line2 = e.readline()
+print(line2)
+e.close()
+
+f = open("TestFile.txt")
+lines2 = f.readlines()
+print(lines2)
+f.close()
