@@ -520,6 +520,20 @@ if a > b else "A proton's weight is greater than a proton's pressure")
 # else:
 #     print("Your number is too small!")
 
+# TruestNumber = 27
+# attempts = 0
+# while True:
+#     attempts += 1
+#     UserGuess = int(input("I am thinking of a number less than 50 but more than 20... Guess the number!\n"))
+#     if UserGuess < TruestNumber:
+#         print("Your number is too small!")
+#     elif UserGuess > TruestNumber:
+#         print("Your number is too big!")
+#     else:
+#         print(f"Correct! This took you {attempts} number of attempts.")
+#         break 
+# print("You now get a cheesecake. 🧀🍰")
+
 # import random
 
 # answer = random.randint(50, 100)
