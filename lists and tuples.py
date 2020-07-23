@@ -81,3 +81,25 @@ print(Do_you_like_2)
 Do_you_like_2[0] = "My flying cactus"
 Do_you_like = tuple(Do_you_like_2)
 print(Do_you_like)
+
+MyList = ["Fridge", "Microwave", 4, 8, "Kettle"]
+NoInt = []
+for item in MyList:
+    if not str(item).isdigit():
+        NoInt.append(item)
+print(NoInt)
+# ^ This prints the list excluding all integers
+
+MyList2 = ["Fridge", "Microwave", 4, 8, "Kettle"]
+Int = []
+for item in MyList:
+    if str(item).isdigit():
+        Int.append(item)
+print(Int)
+# ^ This prints the list excluding all strings
+
+NoIntSmall = [item for item in MyList if not str(item).isdigit()]
+print(NoIntSmall)
+
+IntSmall = [item for item in MyList if str(item).isdigit()]
+print(IntSmall)
