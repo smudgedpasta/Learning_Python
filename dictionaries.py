@@ -39,3 +39,13 @@ Sonic_Characters = {
     "Human": "Dr Robotnik"
 }
 print(Sonic_Characters.fromkeys("Hedgehog"))
+
+print({"One": 1, "Two": 2, "Three": 3, "Four": 4, "Five": 5})
+
+test = {str(i):i for i in [1,2,3,4,5]}
+print(test)
+
+keys = ["test", "dictionary", "comprehension"]
+values = [1, 2, 3]
+test3 = {keys[a]: values[a] for a in range(3)}
+print(test3)
