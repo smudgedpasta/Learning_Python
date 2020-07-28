@@ -594,6 +594,20 @@ There are primarily 2 types of loops in Python. They are:
 for i in range(10):
     print(i)
 
+for i in range(5, 10):
+    print(1)
+
+for i in range(2, 10, 2):
+    print(i)
+
+for i in range(10, 2, -2):
+    print(i)
+
+'''
+^ range uses three inputs. Pretending these three values are a, b and c, it starts at a, every loop adds c, then stops at b.
+Only one argument would treat b and c as 1 by default.
+'''
+
 myList = ["This", "That", "Smudge", "Perfect", 45]
 for a in myList:
     print(a)
