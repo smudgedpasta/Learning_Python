@@ -77,3 +77,41 @@ for b in range(1, int(input("Enter a number\n",))+1):print(b*"*")
 c = int(input("What size shall your pyramid be?\n"))
 for d in range(c):
     print(" " * (c-d-1) + " *" * (d+1))
+
+nums = [1, 2, 3, 4, 5]
+for num in nums:
+    if num == 4:
+        print("Halt!")
+        break # < If the break is commented, the Halt! would just print after the 3 and then continue the for loop
+    print(num) # < If this print statement was above the conditional, it would've printed out 3
+
+nums1 = [1, 2, 3, 4, 5]
+for num1 in nums1:
+    if num1 == 4:
+        print("Halt!")
+        continue 
+    print(num1)
+
+nums2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for num2 in nums2:
+    for alpha in "abcdefghijklmnopqrstuvwxyz":
+        print(num2, alpha)
+
+x = 0
+while x < 10:
+    if x == 5:
+        break
+    print(x)
+    x += 1
+
+x = 0
+while True:
+    if x == 5:
+        break
+    print(x)
+    x += 1
+
+# x = 0
+# while True:
+#     print(x)
+#     x += 1
