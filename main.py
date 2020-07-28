@@ -130,6 +130,8 @@ print(p)
 q = not True
 print(q)
 
+# True and False are Booleans
+
 globals().clear()
 print(" ")
 
