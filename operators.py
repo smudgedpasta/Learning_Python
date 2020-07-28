@@ -62,3 +62,5 @@ p = not False
 print(p)
 q = not True
 print(q)
+
+# True and False are Booleans
