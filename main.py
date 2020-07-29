@@ -1133,7 +1133,7 @@ print(" ")
 
 '''
 This is "Object Oreiented Programming"
-In object oriented programming, you can model anything in your database to real world scenario. With:
+In object oriented programming, you can model anything in your database to real world scenarios. With:
 - Class
 - Attributes
 - Methods
