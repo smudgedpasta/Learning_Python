@@ -20,7 +20,7 @@ a.close()
 
 # a = open("TestFile.txt", "w")
 # a.write("Test writing text onto the file")
-# a.close(
+# a.close()
 
 # a = open("TestFile.txt", "a")
 # a.write("\nTest appending text onto the file")
