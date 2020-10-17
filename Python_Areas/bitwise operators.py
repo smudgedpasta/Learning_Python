@@ -12,7 +12,7 @@ Its similar logic with Bitwise Operators.
 
 # & = Bitwise and. It compares two binary numbers, and if both values are 1, it becomes 1. Otherwise it becomes 0.
 # | = Bitwise or. Comparing two binary numbers, if one is 1 and the other is 0, it becomes 1. Two 1's still become 1.
-# ^ = Bitwise XOR. It works the same was as Bitwise or, only when both values are 1, it becomes False 0.
+# ^ = Bitwise XOR. It works the same was as Bitwise or, only when both values are 1, it becomes 0.
 # << = Bitwise left shift. It does not compare two binary numbers, it shifts the binary numbers to the left.
 #      (Note that you don't keep the same length on the binary number. Its more like appending two 0's to the end.)
 # >> = Bitwise right shift. It works the same as left shift, only shifting the binary numbers to the right.
